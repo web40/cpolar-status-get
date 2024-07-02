@@ -1,15 +1,16 @@
 {
-  "name": "cpolar-status-get",
-  "version": "0.0.1",
-  "description": "用于cpolar内网穿透后定时获取状态通过邮件发送自己",
+  "name": "openwrt-rendie",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "zs",
+  "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
-    "puppeteer": "^11.0.0"
+    "http": "^0.0.1-security",
+    "puppeteer": "^22.12.1"
   }
 }
